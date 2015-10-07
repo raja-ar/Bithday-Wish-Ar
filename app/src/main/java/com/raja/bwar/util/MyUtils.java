@@ -1,14 +1,14 @@
 package com.raja.bwar.util;
 
+import com.raja.bwar.ui.Main;
+
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.GregorianCalendar;
 
-import com.raja.bwar.ui.Main;
-
 public class MyUtils {
-	public static final String TAG = "BdRem";
+	public static final String TAG = "BwAr";
 	public static final String FRIENDLIST_CHANGED = "FRIENDLIST_CHANGED";
 	public static final String BIRTHDAY_ALERT = "BIRTHDAY_ALERT";
 	public static final String ALARM_RESET = "ALARM_RESET";

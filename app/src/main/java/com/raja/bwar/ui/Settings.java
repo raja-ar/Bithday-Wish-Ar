@@ -3,8 +3,6 @@
  */
 package com.raja.bwar.ui;
 
-import com.raja.bwar.R;
-import com.raja.bwar.util.MyUtils;
 import android.app.Activity;
 import android.app.Dialog;
 import android.app.TimePickerDialog;
@@ -13,6 +11,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.TimePicker;
+
+import com.raja.bwar.R;
+import com.raja.bwar.util.MyUtils;
 
 public class Settings extends Activity {
 	private TextView time;
@@ -30,6 +31,7 @@ public class Settings extends Activity {
 		syncHour = MyUtils.getAlarmHour();
 		syncMinute = MyUtils.getAlarmMinute();
 		time.setText(syncHour + ":" + syncMinute);
+
 	}
 
 	@Override
