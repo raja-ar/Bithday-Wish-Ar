@@ -1,0 +1,23 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.raja.bwar" >
+    <application android:icon="@drawable/bd" android:label="@string/app_name">
+        <activity android:name=".ui.Main" android:screenOrientation="portrait"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.ContactTab"></activity>
+        <activity android:name=".ui.MonthTab"></activity>
+        <activity android:name=".ui.WeekTab"></activity>
+        <activity android:name=".ui.PersonalGreeting"></activity>
+        <activity android:name=".ui.GlobalGreeting"></activity>
+        <activity android:name=".ui.AlertPage"></activity>
+        <activity android:name=".ui.Settings"></activity>
+        <activity android:name=".ui.Alert2"></activity>
+        <service android:enabled="true" android:name=".service.BdRemService" />
+    </application>
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+</manifest>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout android:id="@+id/widget32"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<TextView android:id="@+id/textViewStatus"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:text="Settings" android:typeface="sans" android:textStyle="bold"
+		android:layout_x="0px" android:layout_y="0px">
+	</TextView>
+	<TextView android:id="@+id/textViewTime" android:layout_width="96px"
+		android:layout_height="wrap_content" android:text="Time Settings"
+		android:layout_x="10px" android:layout_y="35px">
+	</TextView>
+	<Button android:id="@+id/buttonSelectTime" android:layout_width="100px"
+		android:layout_height="50px" android:text="Select Time"
+		android:layout_x="9px" android:layout_y="56px" android:onClick="doSelectTime">
+	</Button>
+</AbsoluteLayout>
