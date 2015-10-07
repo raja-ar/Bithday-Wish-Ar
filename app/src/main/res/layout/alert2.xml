@@ -11,8 +11,8 @@ android:layout_width="wrap_content"
 android:layout_height="wrap_content"
 android:text="Alert"
 android:textStyle="bold"
-android:layout_x="0px"
-android:layout_y="6px"
+android:layout_x="177dp"
+android:layout_y="3dp"
 >
 </TextView>
 <TextView
@@ -21,8 +21,8 @@ android:layout_width="wrap_content"
 android:layout_height="wrap_content"
 android:text="Sara Birthday"
 android:textColor="#ffff9900"
-android:layout_x="37px"
-android:layout_y="45px"
+android:layout_x="149dp"
+android:layout_y="25dp"
 >
 </TextView>
 <Button
@@ -32,8 +32,8 @@ android:layout_height="wrap_content"
 android:text="Send Global Greeting"
 android:textStyle="bold"
 android:textColor="#ff333333"
-android:layout_x="35px"
-android:layout_y="78px"
+android:layout_x="17dp"
+android:layout_y="52dp"
 android:onClick="doSendGlobalGreeting"
 >
 </Button>
@@ -44,8 +44,8 @@ android:layout_height="wrap_content"
 android:text="Create New Greeting"
 android:textStyle="bold"
 android:textColor="#ff333333"
-android:layout_x="35px"
-android:layout_y="124px"
+android:layout_x="215dp"
+android:layout_y="53dp"
 android:onClick="doCreateGreeting"
 >
 </Button>
@@ -54,8 +54,8 @@ android:id="@+id/abMessage"
 android:layout_width="wrap_content"
 android:layout_height="wrap_content"
 android:visibility="invisible"
-android:layout_x="41px"
-android:layout_y="177px"
+android:layout_x="126dp"
+android:layout_y="179dp"
 >
 <EditText
 android:id="@+id/etMessage"

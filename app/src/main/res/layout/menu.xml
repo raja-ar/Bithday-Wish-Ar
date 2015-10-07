@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu
-  xmlns:android="http://schemas.android.com/apk/res/android">
+	android:layout_height="match_parent"
+
+  xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent">
   	<item android:id="@+id/globalGreeting"
 		android:title="Global Greeting"
-		android:icon="@drawable/greeting"/>
+		android:icon="@drawable/greeting"
+		android:layout_width="match_parent" />
 	
 	<item android:id="@+id/Settings"
 	android:title="Settings"
